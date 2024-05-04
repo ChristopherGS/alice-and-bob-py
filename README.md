@@ -16,7 +16,7 @@ This code demonstrates the importance of survivorship bias.
 
 From [_Winning Long Term Games_](https://luca-dellanna.com/winning-long-term-games/) (pp.43-44):
 
-> Imagine two entrepreneurs, Alice and Bob. They each open a busi- ness with an initial capital of $100,000. Alice takes more risks and, as a result, has a high growth rate of 10%. However, because of those risks, she also has a high failure rate of 5%. Conversely, Bob takes less risks. As a result, his growth rate is lower, 8%, but so is his failure rate, 1%.
+> Imagine two entrepreneurs, Alice and Bob. They each open a business with an initial capital of $100,000. Alice takes more risks and, as a result, has a high growth rate of 10%. However, because of those risks, she also has a high failure rate of 5%. Conversely, Bob takes less risks. As a result, his growth rate is lower, 8%, but so is his failure rate, 1%.
 > Who do we expect to make the most money: Alice or Bob?
 > The answer is counterintuitive: Alice is more likely to be wealthier
 > than Bob, yet we expect Bob to end up wealthier.
@@ -26,7 +26,7 @@ From [_Winning Long Term Games_](https://luca-dellanna.com/winning-long-term-gam
 > Survivorship bias makes us think that Alice’s strategy is better because all the winners are Alices, but her strategy is not better. Alice’s strategy has higher potential but is less reproducible; there- fore, she ends up worse, at the net of survivorship bias.
 
 RUNNING A SIMULATION
-I ran a Monte Carlo simulation, computing the results of ten million Alices and ten million Bobs running their businesses for ten years (using the same parameters as the previous example).
+I [Luca, in the book] ran a Monte Carlo simulation, computing the results of ten million Alices and ten million Bobs running their businesses for ten years (using the same parameters as the previous example).
 The results of the simulation are telling.
 The top 10% of entrepreneurs by wealth are all Alices! That gives the impression that Alice’s strategy is worth imitating more than Bob’s.
 And yet, the average Alice has only $155,000, whereas the average Bob has $195,000. Bob ends up 26% wealthier despite not appearing in the top decile even once!
